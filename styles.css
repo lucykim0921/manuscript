@@ -1,0 +1,137 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #2f4666; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+    z-index: 1000;
+}
+
+.left-nav a, .right-nav a {
+    text-decoration: none;
+    color:#f1f1f1;
+    font-family: 'Inria Sans', serif;
+    transition: color 0.5 ease; 
+}
+
+.left-nav a:hover {
+    color: #fb6d1c;
+}
+
+.left-nav ul, .right-nav ul {
+    display: flex; 
+    justify-content: flex-start; 
+}
+
+.left-nav li, .right-nav li {
+    margin: 0px 20px 0px; 
+}
+
+.logo {
+    text-align: center; 
+}
+
+.logo h1 {
+    font-size: 24px; 
+    font-family: 'Inria Sans', serif;
+    color: #fe9f8b;
+    margin: 0; 
+    padding: 0; 
+}
+
+.norman-title {
+    font-family: 'Inria Sans', serif;
+    padding: 40px 100px 30px;
+    text-align: center; 
+    max-height: 100vh;
+    background-color: #3a5072; 
+}
+.separator {
+    width: 20%;
+    border: none; 
+    height: 0.8px; 
+    background-color: #fff; 
+    margin: 10px auto;
+}
+.norman-title h1 {
+    font-size: 60px;
+    font-family: inria sans, serif;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    line-height: 0.9;
+    color: #f3f3f3;
+    max-width: 50rem;
+}
+.norman-title h2 {
+    font-size: 100px;
+    color: #fe9f8b;
+    font-family: inria serif;
+    font-style: italic;
+    margin-top: 50px;
+    margin: 30px auto;
+    max-width: 90rem;
+}
+
+.norman-title p {
+    font-size: 25px;
+    font-family: inria serif;
+    color: #f7f7f7;
+    margin: 40px auto;
+    max-width: 45rem;
+    line-height: 1.4;
+   <!-- text-decoration-line: underline; -->
+}
+
+.norman {
+    margin: 150px 0px 50px;
+}
+.norman h2 {
+    font-size: 35px;
+    font-family: inria serif;
+    color: gray;
+    margin: 100px 300px 40px;
+    padding: 12px 0px;
+    display: inline-block;
+    border-top: solid gray 2px;
+	<!-- background-color: #3a5072; -->
+}
+.norman p {
+    margin: 0px 500px 50px;
+    font-size: 20px;
+    font-family: jomolhari, serif;
+    line-height: 1.5;
+    color: #373333;
+}
+
+.response {
+    float: right;
+    max-width: 40rem;
+    margin: 200px 120px 70px 0px;
+    background-color: #3a5072;
+    padding: 20px 40px 20px;
+    border-style: hidden;
+    <!-- border-radius: 20px; -->
+}
+.response summary {
+    font-size: 30px;
+    font-family: inria serif;
+    font-weight: bold;
+    color: #f2f2f2;
+}
+.response p {
+    font-size: 20px;
+    font-family: jomolhari, serif;
+    color: #f2f2f2;
+    margin-top: 30px;
+}
